@@ -1,5 +1,9 @@
 # Beeriology
 
+
+[![Build Status](https://travis-ci.org/wingoku/Beeriology.svg?branch=master)](https://travis-ci.org/wingoku/Beeriology)
+
+
 ```
 Copyright (C) 2017 WinGoku
 Copyright (C) 2011 Android Open Source Project

@@ -253,6 +253,7 @@ public class BeerListFragment extends Fragment {
     }
 
     private void onFailureInDataFetching() {
+        mProgressBar.setVisibility(View.GONE);
         Snackbar snackbar = Utils.initSnackbar(getContext(), mView);
         snackbar.setText(getString(R.string.failure_message)).show();
     }
