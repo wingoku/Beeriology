@@ -73,7 +73,7 @@ public class MainActivityEspressoTest {
         // Type the text in the search field and submit the query
         onView(isAssignableFrom(EditText.class)).perform(typeText("4.4"), pressImeActionButton());
         Espresso.closeSoftKeyboard();
-        onView(withText(R.string.string_end_budget_mode)).check(matches(isDisplayed()));
+        onView(withText(R.string.string_end_ph_level_search_mode)).check(matches(isDisplayed()));
     }
 
     private String getResourceString(int id) {

@@ -16,7 +16,7 @@
     <string name="string_beerVolume">Volume</string>
     <string name="string_beerPH">PH Level</string>
     <string name="string_contributor">Contributor</string>
-    <string name="string_end_budget_mode">End Budget Mode</string>
+    <string name="string_end_ph_level_search_mode">End PH Search Mode</string>
     <string name="string_no_data_found_on_server">No Data On Server</string>
     <string name="string_dialog_details_button">Details</string>
     <string name="string_dialog_browser_button">Browser</string>

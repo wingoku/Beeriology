@@ -127,10 +127,10 @@ public class BeerListFragment extends Fragment {
         }
 
         if(isFilterModeActive) {
-            Timber.d("beer count in budget mode: %s", mBeerListFragmentPresenter.getFilteredBeers().getBeerList().size());
+            Timber.d("beer count in pholevel search mode: %s", mBeerListFragmentPresenter.getFilteredBeers().getBeerList().size());
             updateBeersAdapter(mBeerListFragmentPresenter.getFilteredBeers());
             mBeerListFragmentPresenter.filterBeersAccordingToPhLevel(mPH * 1.0);
-            showEndBudgetModeSnackBar();
+            showPhLevelSearchModeEndSnackbar();
         }
         else {
             updateBeersAdapter(mBeerListFragmentPresenter.getBeers());
@@ -293,18 +293,18 @@ public class BeerListFragment extends Fragment {
         mAdapter.updateDataSet(beers);
     }
 
-    private void showEndBudgetModeSnackBar() {
+    private void showPhLevelSearchModeEndSnackbar() {
         if(mView == null) {
             return;
         }
 
         Snackbar snackbar = Utils.initSnackbar(getContext(), mView);
-        snackbar.setText(R.string.string_end_budget_mode);
+        snackbar.setText(R.string.string_end_ph_level_search_mode);
         snackbar.setDuration(Snackbar.LENGTH_INDEFINITE);
         snackbar.setAction(getString(R.string.ok_string), new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Timber.d("end budget mode now!");
+                Timber.d("end search mode now!");
                 isFilterModeActive = false;
                 updateBeersAdapter(mBeerListFragmentPresenter.getBeers());
                 mBeerListFragmentPresenter.clearFilteredBears();
@@ -326,7 +326,7 @@ public class BeerListFragment extends Fragment {
                 actionMenuItem.collapseActionView();
                 mAppbarLayout.setExpanded(isAppbarExpanded);
 
-                showEndBudgetModeSnackBar();
+                showPhLevelSearchModeEndSnackbar();
                 return false;
             }
             @Override
