@@ -3,6 +3,7 @@
 
 [![Build Status](https://travis-ci.org/wingoku/Beeriology.svg?branch=master)](https://travis-ci.org/wingoku/Beeriology)
 
+Generated JavaDocs: https://wingoku.github.io/beeriology/
 
 ```
 Copyright (C) 2017 WinGoku
