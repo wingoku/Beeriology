@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7351ad</color>
+    <color name="colorPrimaryDark">#463268</color>
+    <color name="colorAccent">#9173c4</color>
+    <color name="expanded_title">#ffffff</color>
+    <color name="background_color">#f5f5f5f5</color>
+    <color name="title_text_color">#858585</color>
+    <color name="toolbar_items_color">#ffffff</color>
+    <color name="splash_screen_text_color">#FFFFFF</color>
+    <color name="splash_screen_animation_view_background">#463268</color>
+</resources>

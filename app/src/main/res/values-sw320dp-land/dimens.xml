@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="beer_card_width">145dp</dimen>
+    <dimen name="beer_image_view_width">145dp</dimen>
+    <dimen name="beer_image_view_height">200dp</dimen>
+    <integer name="beer_grid_columns">4</integer>
+    <dimen name="lottie_animation_view_width">240dp</dimen>
+    <dimen name="lottie_animation_view_height">240dp</dimen>
+</resources>

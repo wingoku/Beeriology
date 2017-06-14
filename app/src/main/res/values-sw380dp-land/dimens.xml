@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="beer_card_width">170dp</dimen>
+    <dimen name="beer_image_view_width">170dp</dimen>
+    <dimen name="beer_image_view_height">230dp</dimen>
+    <integer name="beer_grid_columns">4</integer>
+</resources>
